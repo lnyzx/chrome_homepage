@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8">
+	<title>homepage</title>
+	<link rel = "stylesheet" href = "css/index.css" type = "text/css" />
+	<script type = "text/javascript" src = "script/jquery-3.2.0.js"></script>
+	<script type = "text/javascript" src = "script/index.js"></script>
+</head>
+
+<body background = "background/today.jpg">
+	<!--this is the search form-->
+	<div id = "searchform">
+		<!--baidu-->
+		<form name="baidu" action="http://www.baidu.com/s">
+			<a href="http://www.baidu.com">
+				<img style="height:35px;" src="baidu_web.png">
+			</a>
+			<input style="height:19px;" type="text" name="word" size="40" maxlength="255" class="input_s">
+			<img style="height:26px;" src="submit.png" onclick="document.baidu.submit();">
+		</form>
+		<br>
+		<!--bing-->
+		<form name="bing" action="http://cn.bing.com">
+			<a href="http://cn.bing.com/">
+				<img style="height:35px;" src="bing_web.png">
+			</a>
+			<input type="text" style="height:19px;" name="q" size="40" maxlength="255" value="" class="input_s">
+			<img style="height:26px;" src="submit.png" onclick="document.bing.submit();">
+		</form>
+		<br>
+		<!--google-->
+		<form name="google" action="http://www.google.com/search">
+			<a href="http://www.google.com">
+				<img style="height:35px;" src="google_web.png">
+			</a>
+			<input style="height:19px;" type="text" name="q" size="40" maxlength="255" value="" class="input_s">
+			<img style="height:26px;" src="submit.png" onclick="document.google.submit();">
+		</form>
+	</div>
+	<!--this is right icon list-->
+	<div id = "icon">
+		<a href = "http://www.weibo.com">
+			<img class = "icon" id = "weibo" style = "height:40px" src = "icon/weibo_w.png">
+		</a>
+		<a style = "margin-left:20px" href = "http://www.taobao.com">
+			<img class = "icon" id = "taobao" style="height:32px" src = "icon/taobao_w.png">
+		</a>
+		<a style = "margin-left:22px" href = "http://github.com">
+			<img class = "icon" id = "github" style="height:32px" src = "icon/github_w.png">
+		</a>
+		<a style = "margin-left:22px" href = "https://feedly.com/i/my">
+			<img class = "icon" id = "feed" style = "height:34px" src = "icon/feed_w.png">
+		</a>
+		<a style = "margin-left:22px" href = "https://www.pinterest.com">
+			<img class = "icon" id = "pinterest" style = "height:34px" src = "icon/pinterest_w.png">
+		</a>
+		<a style = "margin-left:18px" href = "https://wx.xiaomiquan.com/dweb">
+			<img class = "icon" id = "xiaomiquan" style = "height:40px" src = "icon/xiaomiquan_w.png">
+		</a>
+	</div>
+
+</body>
+
+</html>

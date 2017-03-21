@@ -1,0 +1,23 @@
+<style type="text/css">
+	input{
+		vertical-align:left;
+		width:300px;
+	}
+	a{
+		font:0/0 arial;
+	}
+	input,img{
+		vertical-align:bottom;
+	}
+	div#searchform{
+		width:1500px;
+		float:left;
+		margin-left:200px;
+		margin-top:200px;
+	}
+	div#icon{
+		float:right;
+		margin-top:450px;
+		margin-right:150px;
+	}
+</style>
